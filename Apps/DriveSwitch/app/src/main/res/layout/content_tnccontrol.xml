@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.driveswitch.TNCControlActivity"
+    tools:showIn="@layout/app_bar_tnccontrol">
+
+    <!-- View Title -->
+    <TextView
+        android:text="Waiting for requests..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorText"
+        android:id="@+id/lblMessage"
+        android:textAlignment="center"
+        android:textStyle="normal|bold|italic"
+        android:textSize="18sp" />
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <!-- Main Container -->
+    <ScrollView
+        android:id="@+id/mainContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_gravity="center">
+
+        <!-- View Content -->
+        <LinearLayout
+            android:id="@+id/tncContainer"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:id="@+id/FARE_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/FARE_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_fare_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Fasten_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/Fasten_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_fasten_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/GetMe_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/GetMe_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_getme_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/InstaRyde_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/InstaRyde_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_instaryde_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Lyft_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/Lyft_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_lyft_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RideAustin_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/RideAustin_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_rideaustin_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ScoopMe_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/ScoopMe_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_scoopme_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Tride_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/Tride_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_tride_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Uber_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/Uber_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_uber_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/WingZ_Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_disabled"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/WingZ_Logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_wingz_off"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

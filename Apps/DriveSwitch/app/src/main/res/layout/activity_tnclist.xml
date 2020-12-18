@@ -1,0 +1,12 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <GridView
+        android:id="@+id/tncList"
+        android:layout_width="wrap_content"
+        android:numColumns="2"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

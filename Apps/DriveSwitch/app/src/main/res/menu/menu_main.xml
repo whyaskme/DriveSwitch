@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_menu" >
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/nav_menu_main">
+        <item
+            android:id="@+id/nav_switchboard"
+            android:icon="@drawable/ic_switchboard"
+            android:textColor="@color/colorText"
+            android:title="@string/label_switchboard" />
+        <item
+            android:id="@+id/nav_nightmode"
+            android:icon="@drawable/ic_nightmode"
+            android:textColor="@color/colorText"
+            android:title="Nightmode" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_button"
+            android:textColor="@color/colorText"
+            android:title="@string/label_logout" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:visible="false"
+        android:id="@+id/nav_menu_admin">
+        <item android:title="Admin"
+            android:textColor="@color/colorText"
+            android:id="@+id/nav_admin">
+            <menu>
+                <item
+                    android:id="@+id/nav_system"
+                    android:icon="@drawable/ic_admin_system"
+                    android:textColor="@color/colorText"
+                    android:title="System Management" />
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/nav_menu_support">
+        <item
+            android:title="@string/label_support"
+            android:textColor="@color/colorText">
+            <menu>
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about"
+                    android:textColor="@color/colorText"
+                    android:title="@string/label_about" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_contact"
+                    android:textColor="@color/colorText"
+                    android:title="@string/label_contact" />
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/ic_reports"
+                    android:textColor="@color/colorText"
+                    android:title="Dashboard" />
+                <item
+                    android:id="@+id/nav_notification_test"
+                    android:icon="@drawable/ic_contact"
+                    android:textColor="@color/colorText"
+                    android:title="Request Test" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

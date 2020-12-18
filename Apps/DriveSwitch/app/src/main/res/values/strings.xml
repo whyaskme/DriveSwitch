@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">DriveSwitch</string>
+
+    <string name="active_notification_count_zero">No active notifications</string>
+
+    <plurals name="active_notification_count_nonzero">
+        <item quantity="one">%d active notification</item>
+        <item quantity="other">%d active notifications</item>
+    </plurals>
+
+    <string name="permission_gps_required">"GPS must be enabled to use DriveSwitch"</string>
+
+    <string name="app_email">support@driveswitch.com</string>
+    <string name="app_user_expired_date_key">ExpireDate</string>
+
+    <string name="app_security_minimum_password_length">4</string>
+
+    <string name="app_location_provider">gps</string>
+    <string name="app_location_refresh_interval">10000</string>
+
+    <string name="default_userid">UserId: 000000000000000000000000</string>
+    <string name="default_color_off">#ffffff</string>
+    <string name="default_color_on">#ffffff</string>
+    <string name="default_userlatitude">0.00</string>
+    <string name="default_userlongitude">0.00</string>
+
+    <string name="app_debug">true</string>
+    <string name="app_debug_off_color">#ffffff</string>
+    <string name="app_debug_on_color">#ffffff</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_register">Not Registered?</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_save">Save</string>
+    <string name="error_invalid_email">Email address is invalid</string>
+    <string name="error_invalid_password">Password is too short</string>
+    <string name="error_incorrect_password">Password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="label_first_name">First Name</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_email_address">Email</string>
+    <string name="label_mobile_number">Mobile Number</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_zipcode">Home Zipcode</string>
+    <string name="label_password">Password</string>
+    <string name="label_forgot_password">Forgot Password?</string>
+    <string name="label_not_registered">Not registered yet?</string>
+    <string name="label_next">Next</string>
+    <string name="label_previous">Previous</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_first">First</string>
+    <string name="label_last">Last</string>
+    <string name="label_send_password">Send Password</string>
+    <string name="label_logout">Log Out</string>
+    <string name="label_switchboard">Switchboard</string>
+    <string name="label_support">Support</string>
+    <string name="label_about">About</string>
+    <string name="label_contact">Contact</string>
+    <string name="label_help">Help?</string>
+    <string name="label_tnc_instructions">Must have at least 1 selected</string>
+
+    <string name="label_tnc_BlaBlaCar">BlaBlaCar</string>
+    <string name="label_tnc_FARE">FARE</string>
+    <string name="label_tnc_Fasten">Fasten</string>
+    <string name="label_tnc_GetMe">GetMe</string>
+    <string name="label_tnc_InstaRyde">InstaRyde</string>
+    <string name="label_tnc_Lyft">Lyft</string>
+    <string name="label_tnc_RideAustin">Ride|Austin</string>
+    <string name="label_tnc_ScoopMe">ScoopMe</string>
+    <string name="label_tnc_Tride">Tride</string>
+    <string name="label_tnc_Uber">Uber</string>
+    <string name="label_tnc_WingZ">WingZ</string>
+    <string name="label_tnc_ZimRide">ZimRide</string>
+
+    <string name="hint_first_name">First</string>
+    <string name="hint_last_name">Last</string>
+    <string name="hint_email_address">Email</string>
+    <string name="hint_mobile_number">(555) 555-1212</string>
+
+    <string name="title_activity_main">DriveSwitch</string>
+    <string name="title_activity_register_personal_info">Personal Info</string>
+    <string name="title_activity_register_tnc">TNC Settings</string>
+    <string name="title_activity_register_profile_info">Profile Info</string>
+    <string name="title_activity_security_forgot_password">Forgot Password</string>
+    <string name="title_activity_switchboard">Switchboard</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_tnccontrol">TNCControlActivity</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_settings_personal">Personal Settings</string>
+    <string name="title_activity_settings_profile">Profile Settings</string>
+    <string name="title_activity_settings_tnc">Rideshare Settings</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_gender">
+        <item>Select your Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="list_nightmode">
+        <item>Off</item>
+        <item>On</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_night_mode">NightModeActivity</string>
+    <string name="title_activity_settings_night_mode">NightMode Settings</string>
+    <string name="title_activity_administration_system">System Administration</string>
+    <string name="title_activity_administration_users">User Administration</string>
+    <string name="title_activity_subscription">SubscriptionActivity</string>
+    <string name="title_activity_settings_subscription">SettingsSubscriptionActivity</string>
+    <string name="title_activity_tnc__button_template">TNC_ButtonTemplate</string>
+    <string name="title_activity_tncbutton_template">TNC Button Template</string>
+    <string name="title_activity_notification_test">NotificationTest</string>
+    <string name="title_activity_administration_reporting">AdministrationReportingActivity</string>
+    <string name="title_activity_administration_messages">AdministrationMessagesActivity</string>
+    <string name="title_activity_administration_notifications">AdministrationNotificationsActivity
+    </string>
+
+</resources>

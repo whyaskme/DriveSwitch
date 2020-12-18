@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{54BB622D-278D-4DF7-813F-152793B9CEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Repositories.MongoDB", "..\Libraries\Data.Repositories.MongoDB\Data.Repositories.MongoDB.csproj", "{B456F076-4543-455E-8249-74D3670F868B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B456F076-4543-455E-8249-74D3670F868B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B456F076-4543-455E-8249-74D3670F868B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B456F076-4543-455E-8249-74D3670F868B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B456F076-4543-455E-8249-74D3670F868B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50834440-84F3-4343-A4E5-262130A215DC}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://baranauskas.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebApi\\WebApi.csproj
+		SccProjectName1 = WebApi
+		SccLocalPath1 = WebApi
+		SccProjectUniqueName2 = ..\\Libraries\\Data.Repositories.MongoDB\\Data.Repositories.MongoDB.csproj
+		SccProjectName2 = ../Libraries/Data.Repositories.MongoDB
+		SccLocalPath2 = ..\\Libraries\\Data.Repositories.MongoDB
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,205 @@
+C:\Temp\MVC\WebApi\WebApi\bin\WebApi.dll.config
+C:\Temp\MVC\WebApi\WebApi\bin\WebApi.dll
+C:\Temp\MVC\WebApi\WebApi\bin\WebApi.pdb
+C:\Temp\MVC\WebApi\WebApi\bin\Antlr3.Runtime.dll
+C:\Temp\MVC\WebApi\WebApi\bin\EntityFramework.dll
+C:\Temp\MVC\WebApi\WebApi\bin\EntityFramework.SqlServer.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Google.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Temp\MVC\WebApi\WebApi\bin\MongoDB.Bson.dll
+C:\Temp\MVC\WebApi\WebApi\bin\MongoDB.Driver.Core.dll
+C:\Temp\MVC\WebApi\WebApi\bin\MongoDB.Driver.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Newtonsoft.Json.dll
+C:\Temp\MVC\WebApi\WebApi\bin\Owin.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Net.Http.Formatting.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Helpers.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Http.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Http.Owin.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Http.WebHost.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Mvc.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Optimization.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Razor.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.WebPages.dll
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Temp\MVC\WebApi\WebApi\bin\WebGrease.dll
+C:\Temp\MVC\WebApi\WebApi\bin\MongoDB.Bson.xml
+C:\Temp\MVC\WebApi\WebApi\bin\MongoDB.Driver.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Newtonsoft.Json.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Helpers.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Http.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Http.WebHost.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Mvc.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Optimization.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Razor.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.WebPages.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Antlr3.Runtime.pdb
+C:\Temp\MVC\WebApi\WebApi\bin\EntityFramework.xml
+C:\Temp\MVC\WebApi\WebApi\bin\EntityFramework.SqlServer.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Google.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Temp\MVC\WebApi\WebApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Temp\MVC\WebApi\WebApi\bin\System.Web.Http.Owin.xml
+C:\Temp\MVC\WebApi\WebApi\obj\Debug\WebApi.dll
+C:\Temp\MVC\WebApi\WebApi\obj\Debug\WebApi.pdb
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\WebApi.dll.config
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\WebApi.XML
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\WebApi.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\WebApi.pdb
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\MongoDB.Bson.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.Core.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\Newtonsoft.Json.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Device.Portable.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Net.Http.Formatting.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Helpers.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.WebHost.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Mvc.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Optimization.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Razor.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\WebGrease.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\MongoDB.Bson.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\Newtonsoft.Json.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Helpers.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.WebHost.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Mvc.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Optimization.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.Razor.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.dll
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.pdb
+C:\Joes_Data\Development\Personal-Sites\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.dll.config
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.XML
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.pdb
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Bson.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.Core.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\Newtonsoft.Json.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Device.Portable.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Net.Http.Formatting.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Helpers.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.WebHost.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Mvc.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Optimization.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Razor.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Razor.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\WebGrease.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Bson.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\Newtonsoft.Json.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Helpers.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.WebHost.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Mvc.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Optimization.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Razor.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Razor.xml
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.dll
+C:\JoesData\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.pdb
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\mongocrypt.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.dll.config
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.XML
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\WebApi.pdb
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Crc32C.NET.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Data.Repositories.MongoDB.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\DnsClient.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Bson.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.Core.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.Legacy.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Libmongocrypt.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Newtonsoft.Json.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\SharpCompress.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Snappy.NET.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Buffers.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Device.Portable.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Memory.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Net.Http.Formatting.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Numerics.Vectors.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Text.Encoding.CodePages.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Helpers.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.WebHost.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Mvc.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Optimization.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Razor.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\WebGrease.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Data.Repositories.MongoDB.pdb
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Data.Repositories.MongoDB.dll.config
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Crc32C.NET.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\DnsClient.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Bson.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.Core.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\MongoDB.Driver.Legacy.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Newtonsoft.Json.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\Snappy.NET.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Buffers.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Memory.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Numerics.Vectors.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Text.Encoding.CodePages.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Helpers.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Http.WebHost.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Mvc.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Razor.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\bin\System.Web.Optimization.xml
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.csprojAssemblyReference.cache
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cache
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.csproj.CopyComplete
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.dll
+C:\Joes Data\Development\DriveSwitch\WebApi\WebApi\obj\Debug\WebApi.pdb

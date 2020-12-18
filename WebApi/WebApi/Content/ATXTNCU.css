@@ -1,0 +1,190 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #707070;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div, span, p, label {
+    color: #707070;
+    font-size: .9em;
+    line-height: normal;
+}
+
+.ContinueButton{
+    position:absolute;
+    top:10px;
+    left:10px;
+
+    border: solid 1px #fc9e4f;
+    border-radius: 5px;
+    background-color: #fc9e4f;
+    font-weight: bold;
+    height: 50px; 
+    width: 100px; 
+    padding: 5px;
+    float: none;
+    color: #ffffff;
+
+    /*font-weight: bold;
+    color: #707070;
+    border: solid 1px #a1a1a1;
+    border-radius: 5px; 
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    float: left;
+    padding-left: 10px;
+    width: 125px;
+    height: 35px;
+    background-color: #f19344;
+    color: #ffffff;
+    padding: 15px;*/
+}​
+
+button:hover{
+    position:absolute;
+    top:10px;
+    left:10px;
+    cursor: pointer;
+}​
+
+.row {
+    padding-top: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+[type='text'], 
+[type='password'], 
+[type='date'], 
+[type='datetime'], 
+[type='datetime-local'], 
+[type='month'], 
+[type='week'], 
+[type='email'], 
+[type='number'], 
+[type='search'], 
+[type='tel'], 
+[type='time'], 
+[type='url'], 
+[type='color'],
+[type='button'],
+textarea
+{
+    font-weight: normal;
+    color: #707070;
+    border: solid 1px #a1a1a1;
+    border-radius: 5px; 
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    float: left;
+    padding-left: 10px;
+}
+
+input:focus,
+select:focus,
+[type='text']:focus, 
+[type='password']:focus, 
+[type='date']:focus, 
+[type='datetime']:focus, 
+[type='datetime-local']:focus, 
+[type='month']:focus, 
+[type='week']:focus, 
+[type='email']:focus, 
+[type='number']:focus, 
+[type='search']:focus, 
+[type='tel']:focus, 
+[type='time']:focus, 
+[type='url']:focus, 
+[type='color']:focus,
+[type='button']:focus,
+textarea:focus {
+    border: 1px solid #fc9e4f;
+    background-color: #fefefe;
+    color: #a1a1a1;
+}
+
+input:disabled,
+select:disabled,
+[type='text']:disabled, 
+[type='password']:disabled, 
+[type='date']:disabled, 
+[type='datetime']:disabled, 
+[type='datetime-local']:disabled, 
+[type='month']:disabled, 
+[type='week']:disabled, 
+[type='email']:disabled, 
+[type='number']:disabled, 
+[type='search']:disabled, 
+[type='tel']:disabled, 
+[type='time']:disabled, 
+[type='url']:disabled, 
+[type='color']:disabled,
+[type='button']:disabled,
+textarea:disabled {
+    border: solid 1px rgba(10, 10, 10, 0.1);
+    background-color: #eeeeee;
+    color: rgba(10, 10, 10, 0.1);
+}
+
+[type=button] {
+    color: #ffffff;
+    border: solid 1px #fc9e4f;
+    background-color: #fc9e4f;
+    font-weight: bold;
+    height: 50px; 
+    width: 100px; 
+    padding: 5px;
+    float: none;
+}
+
+[type=button]:focus {
+    color: #ffffff;
+    border: solid 1px #fc9e4f;
+    background-color: #fc9e4f;
+}
+
+[type=button]:hover {
+    color: #ffffff;
+    border: solid 1px #b97504;
+    background-color: #b97504;
+}
+
+[type=button]:disabled {
+    border: solid 1px rgba(10, 10, 10, 0.1);
+    background-color: #eeeeee;
+    color: rgba(10, 10, 10, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #a1a1a1;
+    font-weight: bold;
+}
+
+.Header {
+    margin-bottom: 25px;
+    border-bottom: solid 1px #c0c0c0;
+    padding-bottom: 25px;
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #fc9e4f;
+}
+
+#UpdateMsg {
+    font-weight: bold;
+    color: #ed1c24;
+}
+
+label{
+    font-weight: bold;
+    text-align: left;
+}
+a, a:active, a:current, a:hover {
+    color: #fc9e4f;
+}

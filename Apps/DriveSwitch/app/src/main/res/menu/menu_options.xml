@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings_personal_info"
+        android:orderInCategory="100"
+        android:title="Personal Settings"
+        android:textColor="@color/colorText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings_profile_info"
+        android:orderInCategory="101"
+        android:title="Profile Settings"
+        android:textColor="@color/colorText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings_tnc_info"
+        android:orderInCategory="102"
+        android:title="Rideshare Settings"
+        android:textColor="@color/colorText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings_subscription_info"
+        android:orderInCategory="103"
+        android:title="Subscription"
+        android:textColor="@color/colorText"
+        app:showAsAction="never" />
+</menu>

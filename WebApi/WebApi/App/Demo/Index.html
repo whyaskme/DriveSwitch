@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DriveSwitch App Demo</title>
+	<meta charset="utf-8" />
+    <link href="../../ZurbFoundation/css/foundation.css" rel="stylesheet" />
+    <link href="../../ZurbFoundation/css/app.css" rel="stylesheet" />
+    <link href="../../Content/DriveSwitchApp.css" rel="stylesheet" />
+</head>
+
+<body style="text-align: center; padding: 10px;">
+
+    <div class="row">
+
+        <div id="jsonData">jsonData</div>
+
+        <div id="AppContainer">
+
+            <div class="large-12 medium-12 small-12 columns">
+
+                <div id="AppBody">
+
+                    <div id="AppHeader">
+                        <div id="MenuIconContainer">
+                            <a href="javascript: ToggleMobileMenu();">
+                                <img id="MenuIcon" src="../../Images/Mobile-Menu-Icon.png" />
+                            </a>
+                        </div>
+                        <div id="HeaderImageContainer">
+                            <a href="../">
+                                <img id="AppHeaderImage" src="../../Images/DriveSwitch Email Signature.jpg" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="MenuPanel">
+                        <div id="MobileMenu">
+
+                            <div id="MenuAccount" class="RootMenuItem">Account</div>
+
+                            <div id="PersonalView" class="SubMenuItem">Personal Settings</div>
+
+                            <div id="AddressView" class="SubMenuItem">Address Settings</div>
+
+                            <div id="TNCView" class="SubMenuItem">Rideshare Settings</div>
+
+                            <a href="javascript: ShowUserEventInfo('1');" style="color: #eb416b;">
+                                <div id="EventsView" class="SubMenuItem">Event History</div>
+                            </a>
+
+                            <a href="javascript: LogoutUser();" style="color: #eb416b;">
+                                <div id="LogOutView" class="SubMenuItem">Log Out</div>
+                            </a>
+
+                            <a href="javascript: ShowUserTNCButtons();" style="color: #eb416b;">
+                                <div id="SwitchboardView" class="RootMenuItem" style="">Switchboard</div>
+                            </a>
+
+                            <div id="SupportView" class="RootMenuItem">Support</div>
+
+                        </div>
+                    </div>
+
+                    <div id="AppMessage">
+                        Please Log In
+                    </div>
+
+                    <!--<div id="PleaseWaitProcessing" class="lightbox_background">
+                        <div id="DialogContainer" class="lightbox_content">-->
+                    <div id="PleaseWaitProcessing">
+                        <div id="DialogContainer">
+                            <div id="circularG">
+                                <div id="circularG_1" class="circularG"></div>
+                                <div id="circularG_2" class="circularG"></div>
+                                <div id="circularG_3" class="circularG"></div>
+                                <div id="circularG_4" class="circularG"></div>
+                                <div id="circularG_5" class="circularG"></div>
+                                <div id="circularG_6" class="circularG"></div>
+                                <div id="circularG_7" class="circularG"></div>
+                                <div id="circularG_8" class="circularG"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="ViewLogin">
+                        <div>
+                            <label>Email</label>
+                            <input id="Email" name="Email" type="text" onkeyup="javascript: ValidateEmail();" />
+                        </div>
+                        <div>
+                            <label>Pwd</label>
+                            <input id="Pwd" name="Pwd" type="password" onkeyup="javascript: ValidatePassword();" />
+                        </div>
+                        <div style="position: relative; top: 15px; text-align: left;">
+                            <label>&nbsp;</label>
+                            <input id="btnLoginUser" type="button" value="Login" onclick="javascript: LoginUser();" />
+                        </div>
+                        <div style="text-align: center; position: relative; top: 75px;">
+                            Forgot Password?
+                        </div>
+                    </div>
+
+                    <div id="ViewPersonal">
+                        <div>
+                            <label>First Name</label>
+                            <input id="FirstName" name="FirstName" type="text" onkeyup="javascript: ValidateFirstName();" />
+                        </div>
+                        <div>
+                            <label>Last Name</label>
+                            <input id="LastName" name="LastName" type="text" onkeyup="javascript: ValidateLastName();" />
+                        </div>
+                        <div>
+                            <label>Phone</label>
+                            <input id="Phone" name="Phone" type="text" onkeyup="javascript: ValidatePhone();" />
+                        </div>
+                        <div>
+                            <label>&nbsp;</label>
+                            <select id="DeviceType" name="DeviceType" onchange="javascript: ValidateDevice();">
+                                <option value="0">Select a Device type</option>
+                                <option value="1">Android (Phone)</option>
+                                <option value="2">Android (Tablet)</option>
+                                <option value="3">IOS (Phone)</option>
+                                <option value="4">IOS (Tablet)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>&nbsp;</label>
+                            <select id="Gender" name="Gender" onchange="javascript: ValidateGender();">
+                                <option value="0" selected="selected">Select a Gender</option>
+                                <option value="1">Female</option>
+                                <option value="2">Male</option>
+                            </select>
+                        </div>
+                        <div style="position: relative; top: 15px; text-align: left;">
+                            <label>&nbsp;</label>
+                            <input id="btnRegisterPersonal" type="button" value="Step 2" onclick="javascript: RegisterPersonal();" />
+                        </div>
+                    </div>
+
+                    <div id="ViewAddress">
+                        <div id="AddressLocationInfo">&nbsp;</div>
+                        <div>
+                            <label>Street</label>
+                            <input id="Address1" name="Address1" type="text" onkeyup="javascript: ValidateAddress();" />
+                        </div>
+                        <div>
+                            <label>Zip</label>
+                            <input id="ZipCode" name="ZipCode" onkeyup="javascript: SearchStateCountyCity();" type="text" />
+                        </div>
+                        <div style="position: relative; top: 15px; text-align: left;">
+                            <label>&nbsp;</label>
+                            <input id="btnRegisterAddress" type="button" value="Step 3" onclick="javascript: RegisterAddress();" />
+                        </div>
+                    </div>
+
+                    <div id="ViewTNC">
+                        <div style="font-size: 18px; font-weight: bold;">
+                            Select 1 or more ridesharing companies
+                        </div>
+                        <div id="TNCContainer" style="padding: 15px;"></div>
+                        <div style="text-align: center;">
+                            <input id="btnRegisterTNC" type="button" value="Finish!" onclick="javascript: RegisterTNC();" />
+                        </div>
+                    </div>
+
+                    <div id="ViewAccount">
+                        <div id="AccountContent"></div>
+                    </div>
+
+                    <div id="ViewHistory">
+                        <div id="EventContent" name="EventContent"></div>
+                        <div id="PaginationControls">
+                            <input id='btnFirst' type='button' disabled="disabled" value='<' onclick='javascript: FirstEventRecords();' />
+                            <input id='btnPrevious' type='button' disabled="disabled" value='Prev 0' onclick='javascript: PreviousEventRecords();' />
+                            <input id='btnNext' type='button' disabled="disabled" value='Next 0' onclick='javascript: NextEventRecords();' />
+                            <input id='btnLast' type='button' disabled="disabled" value='>' onclick='javascript: LastEventRecords();' />
+                        </div>
+                        <div id="PaginationInfo">Page <span id="CurrentPageNumber">0</span> of <span id="TotalPageCount">0</span></div>
+                    </div>
+
+                    <div id="AppFooter">
+                        <span>Lat: <span id="Latitude" class="GPSCoorinates">0.00</span> - Long: <span id="Longitude" class="GPSCoorinates">0.00</span></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Scripts/JQuery/jquery-3.1.0.js"></script>
+    <script src="../../Scripts/JQuery/UI/jquery-ui.js"></script>
+    <script src="../../Scripts/JQuery/Validate/jquery.validate.js"></script>
+
+    <script src="../../Scripts/Chosen/chosen.jquery.js"></script>
+    <script src="../../Scripts/Chosen/DocSupport/prism.js"></script>
+
+    <script src="../../ZurbFoundation/js/vendor/what-input.js"></script>
+    <script src="../../ZurbFoundation/js/vendor/foundation.js"></script>
+    <script src="../../ZurbFoundation/js/app.js"></script>
+
+    <script src="../../Scripts/DriveSwitchApp.js"></script>
+
+</body>
+</html>
