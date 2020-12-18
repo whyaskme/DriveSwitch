@@ -1,4 +1,4 @@
-﻿/// <reference path="jquery-3.5.0.js" />
+﻿/// <reference path="jquery-3.5.1.js" />
 /// <autosync enabled="true" />
 /// <reference path="atxtncu.js" />
 /// <reference path="bootstrap.min.js" />
