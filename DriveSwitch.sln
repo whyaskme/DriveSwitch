@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Repositories.MongoDB",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi\WebApi.csproj", "{54BB622D-278D-4DF7-813F-152793B9CEDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClient", "WebClient\WebClient.csproj", "{3DAFF13A-CDA0-4033-8422-833E69FD2E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClient", "WebClient\WebClient.csproj", "{8B1CB830-1223-4684-8E08-A7ECDE303619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54BB622D-278D-4DF7-813F-152793B9CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DAFF13A-CDA0-4033-8422-833E69FD2E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DAFF13A-CDA0-4033-8422-833E69FD2E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DAFF13A-CDA0-4033-8422-833E69FD2E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DAFF13A-CDA0-4033-8422-833E69FD2E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1CB830-1223-4684-8E08-A7ECDE303619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1CB830-1223-4684-8E08-A7ECDE303619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1CB830-1223-4684-8E08-A7ECDE303619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1CB830-1223-4684-8E08-A7ECDE303619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

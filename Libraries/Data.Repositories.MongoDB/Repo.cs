@@ -54,18 +54,28 @@ namespace Data.Repositories.MongoDB
 
         public Repo()
         {
-            bool _useLocalHostDB = Convert.ToBoolean(ConfigurationManager.AppSettings["UseLocalHost"]);
-            if (_useLocalHostDB)
+            try
             {
-                _dbConnectionString = ConfigurationManager.ConnectionStrings["LocalMongoServer"].ConnectionString;
-                _mongoClient = new MongoClient(_dbConnectionString);
-                _mongoDatabase = _mongoClient.GetDatabase(ConfigurationManager.AppSettings["LocalMongoDbName"]);
-            }
-            else
-            {
-                _dbConnectionString = ConfigurationManager.ConnectionStrings["MongoServer"].ConnectionString;
+                bool _useLocalHostDB = Convert.ToBoolean(ConfigurationManager.AppSettings["UseLocalHost"]);
+
+                //_dbConnectionString = ConfigurationManager.ConnectionStrings["MongoServer"].ConnectionString;
+
+
+                var client = new MongoClient("mongodb://DriveSwitch:%2113324BossWood@localhost:27017/?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=DriveSwitch&authMechanism=SCRAM-SHA-256");
+                var database = client.GetDatabase("DriveSwitch");
+
+
+                if (_useLocalHostDB)
+                    _dbConnectionString = ConfigurationManager.ConnectionStrings["LocalMongoServer"].ConnectionString;
+                else
+                    _dbConnectionString = ConfigurationManager.ConnectionStrings["MongoServer"].ConnectionString;
+
                 _mongoClient = new MongoClient(_dbConnectionString);
                 _mongoDatabase = _mongoClient.GetDatabase(ConfigurationManager.AppSettings["MongoDbName"]);
+            }
+            catch(Exception ex)
+            {
+                var errMsg = ex.Message;
             }
         }
 
