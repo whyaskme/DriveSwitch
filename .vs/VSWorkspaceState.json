@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApi",
+    "\\WebApi\\WebApi",
+    "\\WebApi\\WebApi\\Controllers",
+    "\\WebClient"
+  ],
+  "SelectedNode": "\\WebApi\\WebApi\\Controllers\\TransactionController.cs",
+  "PreviewInSolutionExplorer": false
+}
